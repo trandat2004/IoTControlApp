@@ -3,7 +3,8 @@
 
 ## 🎥 Video Demo
 
-👉 [Xem video demo tại đây](./VideoDemo/demo.mp4)
+👉 [![Watch the video](https://img.youtube.com/vi/ZxU1VCMxxf4/maxresdefault.jpg)](https://youtube.com/shorts/ZxU1VCMxxf4)
+
 
 ---
 
