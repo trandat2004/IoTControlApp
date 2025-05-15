@@ -3,8 +3,7 @@
 
 ## 🎥 Video Demo
 
-👉 [![Watch the video](https://img.youtube.com/vi/ZxU1VCMxxf4/maxresdefault.jpg)](https://youtube.com/shorts/ZxU1VCMxxf4)
-
+ ![Demo Video](./VideoDemo/videoDemo.gif)
 
 ---
 
