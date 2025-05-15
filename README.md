@@ -53,35 +53,33 @@
 
 ---
 
-## ⚙️ Hướng dẫn cài đặt
+## 🛠️ Hướng dẫn cài đặt:
 
-### 🔧 Cài đặt Arduino IDE
-- Tải và cài đặt Arduino IDE tại: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
-- Thêm thư viện **Firebase ESP8266** và các thư viện cảm biến liên quan.
+### 📌 1. Cài đặt Arduino IDE
+- Tải và cài Arduino IDE từ: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+
+### 📌 2. Thêm board ESP32 cho Arduino IDE:
+- Vào **File > Preferences**
+- Tại **Additional Board Manager URLs** dán: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+- Vào **Tools > Board > Boards Manager**
+- Tìm **ESP32** và cài đặt
+
+### 📌 3. Cài đặt thư viện:
+- **Firebase ESP Client**
+- **DHT sensor library**
+- Cài trực tiếp trong **Tools > Manage Libraries**
+
+### 📌 4. Kết nối Firebase:
+- Tạo Realtime Database trên Firebase Console
+- Lấy `Database URL` và `Secret key` để khai báo vào code Arduino
+
+### 📌 5. Làm App bằng Mit App Inventor:
+- Vào [https://ai2.appinventor.mit.edu/](https://ai2.appinventor.mit.edu/)
+- Import file thiết kế blocks hoặc làm theo demo ảnh `Blocks.png`
+- Kết nối API Firebase và control thiết bị
 
 ### 📥 Clone project từ GitHub
 
 ```bash
 git clone https://github.com/trandat2004/IoTControlApp.git
-```
-
-### 📱 Import app vào MIT App Inventor hoặc tải file `.apk` tại thư mục chính.
-
----
-
-## 📑 Thông tin dự án
-
-Ứng dụng điều khiển và giám sát nhiệt độ, độ ẩm qua Internet sử dụng **Firebase** và **Arduino ESP8266**. Dữ liệu cập nhật thời gian thực và có thể điều khiển LED từ xa qua app Android.
-
----
-
-## 📌 Thư mục dự án
-
-```
-├── Image/                # Chứa ảnh minh họa
-├── SmartSenso/           # Mã nguồn Arduino
-├── VideoDemo/            # Video demo
-├── IoTControlApp.apk     # File cài đặt app Android
-├── IoTControlApp_UI.aia  # File thiết kế App Inventor
-└── README.md             # Tài liệu mô tả dự án
 ```
